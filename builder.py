@@ -27,6 +27,48 @@ def get_n_exercises(training_list, count):
             selected.append(elm)
     return selected
 
+def select_unique_exercises_by_type(training_setup):
+    """
+    Select one exercise from each type (isometrisk, plyometrisk, kardiovaskulær, styrke).
+    """
+    types = {"isometrisk": [], "plyometrisk": [], "kardiovaskulær": [], "styrke": []}
+
+    # Group exercises by type
+    for exercise in training_setup.values():
+        if isinstance(exercise, dict) and "type" in exercise:
+            types[exercise["type"].lower()].append(exercise)
+
+    # Select one random exercise from each type
+    selected_exercises = []
+    for exercise_type, exercises in types.items():
+        if exercises:  # Ensure there are exercises of this type
+            selected_exercises.append(random.choice(exercises))
+
+    return selected_exercises
+
+def select_three_exercises_by_type(training_setup):
+    """
+    Select three exercises by randomly excluding one type and picking one exercise from each of the remaining three types.
+    """
+    types = {"isometrisk": [], "plyometrisk": [], "kardiovaskulær": [], "styrke": []}
+
+    # Group exercises by type
+    for exercise in training_setup.values():
+        if isinstance(exercise, dict) and "type" in exercise:
+            types[exercise["type"].lower()].append(exercise)
+
+    # Randomly exclude one type
+    excluded_type = random.choice(list(types.keys()))
+    types.pop(excluded_type)
+
+    # Select one random exercise from each of the remaining types
+    selected_exercises = []
+    for exercises in types.values():
+        if exercises:  # Ensure there are exercises of this type
+            selected_exercises.append(random.choice(exercises))
+
+    return selected_exercises
+
 def build_program():
     config = read_configuration()
     training_setup = read_trainings()
@@ -42,23 +84,22 @@ def build_program():
 
         content = md.start_training_program(config["config"]["weeks-ahed"], player_name)
         start, end = weeks_to_plan[0], weeks_to_plan[-1]
-        
+
         for week_number in weeks_to_plan:
             week_dates = wd.get_week_dates(week_number)
             content += f"## Uge {week_number} ({week_dates['Monday']['date']} - {week_dates['Sunday']['date']})\n\n"
-            for days in week_dates:
-                content += f"### {week_dates[days]['danish']} d. {week_dates[days]['date']}\n"
-                content += f"**Gentagelser : {player_info['repetitions']}**\n\n"
-                exercises_for_day = get_n_exercises(trainings, player_info['exercises'])
+            for day in week_dates:
+                content += f"### {week_dates[day]['danish']} d. {week_dates[day]['date']}\n"
 
-
-                for count, exercise in enumerate(exercises_for_day):
-                    content += f"#### Øvelse {count + 1}: {training_setup[exercise]['name']}\n"
-                    training_info = training_setup[exercise]
-                    content += f"<font size = \"1\">{training_info['description']}</font>\n\n"
-                    content += f"**Varighed: {training_info['duration']} sekunder**\n\n"
-    
-
+                # Select three exercises for the day
+                daily_exercises = select_three_exercises_by_type(training_setup)
+                for exercise in daily_exercises:
+                    content += f"#### {exercise['name']}\n\n"
+                    content += f"Gentagelser: {exercise['repetitions']}\n\n"
+                    content += f"Tid: {exercise['duration']} sekunder\n\n"
+                    content += f"Type: {exercise['type']}\n\n"
+                    content += f"Beskrivelse: {exercise['description']}\n\n"
+                content += "---\n\n"
 
         if start == end:
             filename = f"week_programs/{player_name}_{start}.md"
@@ -66,14 +107,6 @@ def build_program():
             filename = f"week_programs/{player_name}_{start}-{end}.md"
         md.write_markdown_file(content, filename)
 
-
-
-
-    #for week_number in weeks_to_plan:
-    #    week_dates = wd.get_week_dates(week_number)
-
-    
-    
 
 
 
