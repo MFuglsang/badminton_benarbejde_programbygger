@@ -95,7 +95,7 @@ def build_program():
                 daily_exercises = select_three_exercises_by_type(training_setup)
                 for exercise in daily_exercises:
                     content += f"#### {exercise['name']}\n\n"
-                    content += f"Gentagelser: {exercise['repetitions']}\n\n"
+                    content += f"Gentagelser: {player_info['repetitions']}\n\n"  # Use repetitions from player info
                     content += f"Tid: {exercise['duration']} sekunder\n\n"
                     content += f"Type: {exercise['type']}\n\n"
                     content += f"Beskrivelse: {exercise['description']}\n\n"
