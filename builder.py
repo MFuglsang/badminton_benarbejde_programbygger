@@ -53,16 +53,18 @@ def build_program():
 
 
                 for count, exercise in enumerate(exercises_for_day):
-                    content += f"#### Øvelse {count + 1}: {exercise}\n\n"
+                    content += f"#### Øvelse {count + 1}: {training_setup[exercise]['name']}\n"
                     training_info = training_setup[exercise]
-                    content += training_info['description'] + "\n\n"
+                    content += f"<font size = \"1\">{training_info['description']}</font>\n\n"
                     content += f"**Varighed: {training_info['duration']} sekunder**\n\n"
     
 
 
-
-        
-        md.write_markdown_file(content, f"week_programs/{player_name}_{start}-{end}.md")
+        if start == end:
+            filename = f"week_programs/{player_name}_{start}.md"
+        else:
+            filename = f"week_programs/{player_name}_{start}-{end}.md"
+        md.write_markdown_file(content, filename)
 
 
 

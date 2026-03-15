@@ -124,9 +124,41 @@
         "duration": 60,
         "name": "Four-point jumps",
         "repetitions": 1
+    },
+    "scissors-jumps": {
+        "description": "scissors-jumps er en plyometrisk øvelse, der træner benstyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop op og land med krydsede ben, hvor det ene ben er foran det andet. Hop derefter op igen og land med benene ved siden af hinanden. Gentag denne sekvens med det modsatte ben foran. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
+        "duration": 60,
+        "name": "scissors-jumps",
+        "repetitions": 1
+    },
+    "double-splitjumps"  : {
+        "description": "Double-splitjumps er en plyometrisk øvelse, der træner benstyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop først en gang på stedet,  Hop så op og land i en split-position med spredte ben. Hop en gang på stedet i denne stilling, før du returnerer til udgagspunktet. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
+        "duration": 60,
+        "name": "Double-splitjumps",
+        "repetitions": 1
+    },
+    "lunges-in-all-directions": {
+        "description": "Lunges i alle retninger er en øvelse for underkroppen, der træner quadriceps, baglår, balder og lægge. De udføres ved at træde frem med det ene ben og sænke kroppen, indtil begge knæ er bøjet i en 90-graders vinkel. Det bagerste knæ skal svæve lige over jorden, og det forreste knæ skal være direkte over anklen. Efter at have nået bundpositionen, skub gennem hælen på det forreste ben for at vende tilbage til startpositionen. Skift mellem fremad, venstre, bagud, og højre. Lunges kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
+        "duration": 60,
+        "name": "Lunges i alle retninger",
+        "repetitions": 1
+    },
+    "plank-leg-lift": {
+        "description": "Plank med benløft er en isometrisk øvelse, der træner både core og ben. Start i en plankeposition med kroppen i en lige linje. Løft det ene ben langsomt og hold det i et par sekunder, før du sænker det igen. Gentag med det andet ben.",
+        "duration": 60,
+        "name": "Plank med Benløft",
+        "repetitions": 1
+    },
+    "static-side-lunges": {
+        "description": "Statiske side lunges er en øvelse, der træner de laterale muskler og forbedrer stabiliteten. Gå ned i en side-lunge-position og hold denne position uden at bevæge dig.",
+        "duration": 60,
+        "name": "Statiske Side Lunges",
+        "repetitions": 1
+    },
+    "isometric-calf-raise": {
+        "description": "Isometrisk calf raise hold er en øvelse, der styrker lægmusklerne. Stå på tæerne og hold denne position så længe som muligt, mens du holder balancen.",
+        "duration": 60,
+        "name": "Isometrisk Calf Raise Hold",
+        "repetitions": 1
     }
-    
-
-
-
 }
