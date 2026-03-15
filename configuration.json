@@ -1,0 +1,10 @@
+{
+    "config" : {
+    "weeks-ahed": 1,
+    "output_folder": "week_programs"
+    },
+    "trainning_setup": {
+    "progression-factor": 0
+    }
+
+}
