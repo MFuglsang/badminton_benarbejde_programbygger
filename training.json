@@ -2,182 +2,241 @@
     "template": {
         "description": "...",
         "duration": 0,
-        "name": "..."
+        "name": "...",
+        "aids": ""
 
     },
     "squats": {
         "description": "Squats er en grundlæggende øvelse for underkroppen, der primært træner quadriceps, baglår, balder og core-muskler. De udføres ved at bøje knæ og hofter, mens ryggen holdes lige, og derefter vende tilbage til stående position. Squats kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Squats",
-        "type": "Styrke"
+        "type": "Styrke",
+        "aids": ""
     },
     "burpees": {
         "description": "Burpees er en helkropsøvelse, der kombinerer en squat, en armbøjning og et hop. De er en effektiv kardiovaskulær træning, der også Styrker musklerne i ben, bryst, arme og core. For at udføre en burpee, start i stående position, gå ned i en squat, spark fødderne tilbage til en armbøjningsposition, udfør en armbøjning, vend tilbage til squat-positionen, og hop derefter eksplosivt op.",
         "duration": 60,
         "name": "Burpees",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "lunges": {
         "description": "Lunges er en øvelse for underkroppen, der træner quadriceps, baglår, balder og lægge. De udføres ved at træde frem med det ene ben og sænke kroppen, indtil begge knæ er bøjet i en 90-graders vinkel. Det bagerste knæ skal svæve lige over jorden, og det forreste knæ skal være direkte over anklen. Efter at have nået bundpositionen, skub gennem hælen på det forreste ben for at vende tilbage til startpositionen. Lunges kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Lunges",
-        "type": "Styrke"
+        "type": "Styrke",
+        "aids": ""
     },
     "plank": {
         "description": "Planken er en isometrisk core-øvelse, der indebærer at holde en position, der ligner en armbøjning, i en længere periode. Den træner primært mavemusklerne, men aktiverer også skuldre, ryg og balder. For at udføre en planke, start i en armbøjningsposition med underarmene på jorden og kroppen i en lige linje fra hoved til hæle. Hold denne position, mens du holder core stram og undgår at lade ryggen synke eller bue.",
         "duration": 60,
         "name": "Planken",
-        "type": "Isometrisk"
+        "type": "Isometrisk",
+        "aids": ""
     },
     "jumping-jacks": {
         "description": "Jumping jacks er en kardiovaskulær øvelse, der indebærer at hoppe til en position med benene spredt og armene løftet over hovedet, og derefter vende tilbage til en position med fødderne samlet og armene langs siden. De er en effektiv måde at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Jumping Jacks",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "side-jump-splits": {
         "description": "Side jump splits er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en squat position med fødderne samlet. Hop eksplosivt til siden og land med fødderne spredt i en bred position, som om du laver en split. Skift derefter retning og hop tilbage til midten eller til den modsatte side. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten.",
         "duration": 60,
         "name": "Side Jump Splits",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "low-sidesteps": {
         "description": "Low sidesteps er en øvelse for underkroppen, der træner quadriceps, baglår, balder og core-muskler. For at udføre low sidesteps, start i en squat position. Tag 5 skridt sidelæns, og vend derefter tilbage til startpositionen. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Low Sidesteps",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "step-ups": {
         "description": "Step-ups er en øvelse for underkroppen, der træner quadriceps, baglår, balder og core-muskler. For at udføre step-ups, brug en stabil platform eller bænk. Træd op på platformen med det ene ben, og skub gennem hælen for at løfte kroppen op. Sænk derefter kroppen tilbage ned til startpositionen og gentag med det andet ben. Denne øvelse kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Step-ups",
-        "type": "Styrke"
+        "type": "Styrke",
+        "aids": ""
     },
     "step-up-knee-ups": {
         "description": "Step-up knee-ups er en variation af step-ups, der tilføjer en knæløft for at øge intensiteten og træne core-musklerne. For at udføre denne øvelse, brug en stabil platform eller bænk. Træd op på platformen med det ene ben, og skub gennem hælen for at løfte kroppen op. Når du når toppen, løft det modsatte knæ op mod brystet, og sænk derefter kroppen tilbage ned til startpositionen. Gentag med det andet ben. Denne øvelse kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Step-up Knee-ups",
-        "type": "Styrke"
+        "type": "Styrke",
+        "aids": ""
     },
     "step-up-jumps": {
         "description": "Step-up jumps er en plyometrisk variation af step-ups, der tilføjer et hop for at øge intensiteten og træne eksplosivitet. For at udføre denne øvelse, brug en stabil platform eller bænk. Træd op på platformen med det ene ben, og skub gennem hælen for at løfte kroppen op. Når du når toppen, hop eksplosivt op, og land blødt tilbage på platformen. Sænk derefter kroppen tilbage ned til startpositionen og gentag med det andet ben. Denne øvelse kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Step-up Jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "fast-steps": {
         "description": "Fast steps er en kardiovaskulær øvelse, der træner benStyrke og udholdenhed. Stå på stedet, og lav hurtige, små skridt ved at løfte fødderne hurtigt og skifte vægten fra det ene ben til det andet. Denne øvelse kan udføres i et hurtigt tempo for at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Fast Steps",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "fast-knee-steps": {
         "description": "Fast knee steps er en kardiovaskulær øvelse, der træner benStyrke og udholdenhed. Stå på stedet, og lav hurtige, høje knæløft ved at løfte knæene op mod brystet i et hurtigt tempo. Skift vægten fra det ene ben til det andet, og hold armene i bevægelse for at øge intensiteten. Denne øvelse kan udføres i et hurtigt tempo for at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Fast Knee Steps",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "fast-steps-forwards": {
         "description": "Fast steps forwards er en kardiovaskulær øvelse, der træner benStyrke og udholdenhed. Stå på stedet, og lav hurtige, små skridt fremad ved at løfte fødderne hurtigt og skifte vægten fra det ene ben til det andet. Denne øvelse kan udføres i et hurtigt tempo for at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Fast Steps Forwards",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "fast-steps-sideways": {
         "description": "Fast steps sideways er en kardiovaskulær øvelse, der træner benStyrke og udholdenhed. Stå på stedet, og lav hurtige, små skridt sidelæns ved at løfte fødderne hurtigt og skifte vægten fra det ene ben til det andet. Denne øvelse kan udføres i et hurtigt tempo for at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Fast Steps Sideways",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "side-to side-jumps": {
         "description": "Side-to-side jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop side til side og land med fødderne i en samlet position. Skift derefter retning og hop tilbage til midten og derefter til den modsatte side. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Side-to-Side Jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "forward-backwards-jumps": {
         "description": "Forward-backwards jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop fremad og land med fødderne i en samlet position. Skift derefter retning og hop tilbage til startpositionen. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Forward-Backwards Jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "forehand-backhand-pickup-lunges": {
         "description": "Forehand-backhand pickup lunges er en øvelse, der kombinerer lunges med bevægelser, der efterligner badmintonspillets forehand og backhand. For at udføre denne øvelse, start i en stående position. Træd frem med det ene ben og sænk kroppen i en lunge-position, mens du strækker armen ud i en forehands opsamlings bevægelse. Vend tilbage til startpositionen og gentag med det andet ben og en baghånds opsamlingsbevægelse. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Forehand-Backhand Pickup Lunges",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "sideto_side_jumps": {
         "description": "Side-to-sidejumps er en øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop fremad og land med fødderne i en samlet position. Hop derefter til højre og land med fødderne i en samlet position. Hop tilbage til midten og land med fødderne i en samlet position. Hop derefter til venstre og land med fødderne i en samlet position. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Side-to-sidejumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "forward_backwards_jumps": {
         "description": "Forward-backwards jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop fremad og land med fødderne i en samlet position. Hop derefter bagud og land med fødderne i en samlet position. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Forward-backwards jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "four-point-jumps": {
         "description": "Four-point jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop fremad og land med fødderne i en samlet position. Hop derefter til højre og land med fødderne i en samlet position. Hop baglæns og land med fødderne i en samlet position. Hop derefter til venstre og land med fødderne i en samlet position. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Four-point jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "scissors-jumps": {
         "description": "scissors-jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop op og land med krydsede ben, hvor det ene ben er foran det andet. Hop derefter op igen og land med benene ved siden af hinanden. Gentag denne sekvens med det modsatte ben foran. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "scissors-jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "double-splitjumps"  : {
         "description": "Double-splitjumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop først en gang på stedet,  Hop så op og land i en split-position med spredte ben. Hop en gang på stedet i denne stilling, før du returnerer til udgagspunktet. Gentag denne sekvens i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Double-splitjumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     
     },
     "lunges-in-all-directions": {
         "description": "Lunges i alle retninger er en øvelse for underkroppen, der træner quadriceps, baglår, balder og lægge. De udføres ved at træde frem med det ene ben og sænke kroppen, indtil begge knæ er bøjet i en 90-graders vinkel. Det bagerste knæ skal svæve lige over jorden, og det forreste knæ skal være direkte over anklen. Efter at have nået bundpositionen, skub gennem hælen på det forreste ben for at vende tilbage til startpositionen. Skift mellem fremad, venstre, bagud, og højre. Lunges kan udføres med kropsvægt eller med ekstra vægt som håndvægte eller vægtstænger.",
         "duration": 60,
         "name": "Lunges i alle retninger",
-        "type": "Styrke"
+        "type": "Styrke",
+        "aids": ""
     },
     "plank-leg-lift": {
         "description": "Plank med benløft er en isometrisk øvelse, der træner både core og ben. Start i en plankeposition med kroppen i en lige linje. Løft det ene ben langsomt og hold det i et par sekunder, før du sænker det igen. Gentag med det andet ben.",
         "duration": 60,
         "name": "Plank med Benløft",
-        "type": "Isometrisk"
+        "type": "Isometrisk",
+        "aids": ""
     },
     "static-side-lunges": {
         "description": "Statiske side lunges er en øvelse, der træner de laterale muskler og forbedrer stabiliteten. Gå ned i en side-lunge-position og hold denne position uden at bevæge dig.",
         "duration": 60,
         "name": "Statiske Side Lunges",
-        "type": "Isometrisk"
+        "type": "Isometrisk",
+        "aids": ""
     },
     "isometric-calf-raise": {
         "description": "Isometrisk calf raise hold er en øvelse, der Styrker lægmusklerne. Stå på tæerne og hold denne position så længe som muligt, mens du holder balancen.",
         "duration": 60,
         "name": "Isometrisk Calf Raise Hold",
-        "type": "Isometrisk"
+        "type": "Isometrisk",
+        "aids": ""
     },
     "butt-kicks": {
         "description": "Butt-kicks er en kardiovaskulær øvelse, der træner benStyrke og udholdenhed. Stå på stedet, og lav hurtige, små skridt ved at løfte hælene op mod balderne i et hurtigt tempo. Skift vægten fra det ene ben til det andet, og hold armene i bevægelse for at øge intensiteten. Denne øvelse kan udføres i et hurtigt tempo for at øge pulsen og forbedre den generelle kondition.",
         "duration": 60,
         "name": "Butt-kicks",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
     },
     "speed-skating-jumps": {
         "description": "Speed skating jumps er en plyometrisk øvelse, der træner benStyrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position. Hop side til side i en bevægelse, der efterligner skøjteløb, og land med fødderne i en samlet position. Skift retning og hop tilbage til midten og derefter til den modsatte side. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
         "duration": 60,
         "name": "Speed Skating Jumps",
-        "type": "Plyometrisk"
+        "type": "Plyometrisk",
+        "aids": ""
     },
     "lateral-quick-steps": {
         "description": "Lateral Quick Steps er en øvelse, der træner hurtighed og koordination. Start i en let squat-position med fødderne i skulderbredde. Tag hurtige, små skridt sidelæns frem og tilbage, mens du holder kroppen lav og balanceret. Denne øvelse forbedrer fodarbejde og reaktionsevne.",
         "duration": 60,
         "name": "Lateral Quick Steps",
-        "type": "Kardiovaskulær"
+        "type": "Kardiovaskulær",
+        "aids": ""
+    },
+    "figure 8 steps": {
+        "description": "8-tals steps er en øvelse, der træner ben Styrke og udholdenhed. Placer to tennisbolde med 1 meter imellem. Lav sidelæns 8'taller rundt om boldene, let nede i knæene.",
+        "duration": 60,
+        "name": "8-tals steps",
+        "type": "Kardiovaskulær",
+        "aids": "2 tennisbolde"
+    },
+    "sidewards-jump to one leg": {
+        "description": "Boldhop til et ben er en plyometrisk øvelse, der træner ben Styrke, eksplosivitet og koordination. Placer 3 tennisbolde med ca 40 cm imellem.For at udføre denne øvelse, start i en stående position med en bold mellem fødderne og en på hver side. Hop op og land på det ene ben, mens du holder balancen, ved siden af den ene bold. På et ben, sæt af og returner til udgangspunktet. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
+        "duration": 60,
+        "name": "Sidelæns hop til et ben",
+        "type": "Plyometrisk",
+        "aids": "3 tennisbolde"
+    },
+    "One leged jumps": {
+        "description": "One-legged jumps er en plyometrisk øvelse, der træner ben Styrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position med en stol bagved. Læg det ene ben bagud på stolen. Hop på det ene ben. Skift ben og gentag. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
+        "duration": 60,
+        "name": "Hop på et ben",
+        "type": "Plyometrisk",
+        "aids": "Stol"
+    },
+        "One leged jumps side to side": {
+        "description": "One-legged jumps er en plyometrisk øvelse, der træner ben Styrke, eksplosivitet og koordination. For at udføre denne øvelse, start i en stående position med en stol bagved. Læg det ene ben bagud på stolen. Hop på det ene ben fra side til side med små hop. Skift ben og gentag. Denne øvelse kan udføres i et hurtigt tempo for at øge intensiteten og forbedre kardiovaskulær kondition.",
+        "duration": 60,
+        "name": "Hop på et ben til siden",
+        "type": "Plyometrisk",
+        "aids": "Stol"
     }
+            
 }
